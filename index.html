@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <script src="https://api-maps.yandex.ru/2.1/?load=Geolink&amp;lang=ru_RU&amp;apikey=<ваш API-ключ>"
+        type="text/javascript"></script>
+</head>
+
+<body>
+    <section>
+        <div class="block-1">
+            <div class="block-11">
+
+                <a href="">Контроль качества</a>
+                <a href="">Письмо руководителю</a>
+                <a href="">Программа лояльности</a>
+                <a href="">Электронный журнал</a>
+                <a class="last" href="">Мероприятия</a>
+
+
+                <span class="ymaps-geolink first">Москва</span>
+                <span class="ymaps-geolink second">Регионы и международный блок</span>
+
+
+
+                <h6 class="num">+7 (495) 111-22-33</h6>
+                <h6 class="en">EN</h6>
+
+
+            </div>
+          
+
+                
+
+
+
+              
+            <div class="block-12">
+
+
+                <img src="css/img/imgnav.png" alt="эмблема" srcset="" />
+                <a class="first" href="">АУДИТ</a>
+                <a href="">НАЛОГИ</a>
+                <a href="">ПРАВО</a>
+                <a href="">СТРУКТУРИРОВАНИЕ</a>
+                <a href="">БАНКРОТСТВО</a>
+                <a href="">ЛИКВИДАЦИЯ</a>
+                <a class="seven" href="">БУХГАЛТЕРИЯ</a>
+                <a class="eight" href="">РЕГИСТРАЦИЯ</a>
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">ЕЩЕ <img src="/css/img/back@2x.jpg" alt=""
+                            srcset=""></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#contacts">Контакты</a>
+                        <a href="#faces">Лица</a>
+                        <a class="last" href="#aboutUs">О нас</a>
+                    </div>
+                </div>
+                <img src="/css/img/Сгруппировать 489.png" alt="" href="#contacts" srcset="">
+                <button class="submitbtn" type="submit">ПОДАТЬ ЗАЯВКУ</button>
+            </div>
+
+            <div class="block-2">
+
+
+
+
+                <!-- CAROSEL -->
+               
+                <!-- CAROUSEL -->
+
+            </div>
+            <div class="whiteBlock">
+                <section class="carousel" aria-label="Gallery">
+                    <ol class="carousel__viewport">
+                        <li id="carousel__slide1" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper">
+                                
+                                    <img class="one" src="/css/img/free-consultation.png" alt="" srcset="">
+                                <a href="#carousel__slide4" class="carousel__prev">Go to last slide</a>
+                                <a href="#carousel__slide2" class="carousel__next">Go to next slide</a>
+                            </div>
+                        </li>
+
+
+                        <li id="carousel__slide2" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper">
+
+                            </div>
+                            <img class="one" src="/css/img/cons2.jpg" alt="" srcset="">
+                            <a href="#carousel__slide1" class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide3" class="carousel__next">Go to next slide</a>
+                        </li>
+                        <li id="carousel__slide3" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <img class="one" src="/css/img/cons3.jpg" alt="" srcset="">
+                            <a href="#carousel__slide2" class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide4" class="carousel__next">Go to next slide</a>
+                        </li>
+                        <li id="carousel__slide4" tabindex="0" class="carousel__slide">
+                            <div class="carousel__snapper"></div>
+                            <img class="one" src="/css/img/cons4.jpg" alt="" srcset="">
+                            <a href="#carousel__slide3" class="carousel__prev">Go to previous slide</a>
+                            <a href="#carousel__slide1" class="carousel__next">Go to first slide</a>
+                        </li>
+                    </ol>
+                    <aside class="carousel__navigation">
+                        <ol class="carousel__navigation-list">
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                            </li>
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                            </li>
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                            </li>
+                            <li class="carousel__navigation-item">
+                                <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                            </li>
+                        </ol>
+                    </aside>
+                </section>
+            </div>
+<div class="redblock">
+    <img class="redsquare" src="/css/img/qwdqw-1.png" alt="" srcset="">
+    <img class="smi" src="/css/img/smi.png" alt="" srcset="">
+    <p>СМИ</p>
+</div>
+<div class="blueblock">
+    <a href="">Мероприятия</a>
+</div>
+<div class="business">
+    <div class="bsfirst">
+        <h5>Бизнес завтрак</h5>
+    </div>
+    <hr width="1" >
+    <div class="bssecond">
+        <h5>27 сентября '19</h5>
+        <p>Налоговая безопасность
+            </p>
+            <p>2019 г. Время перемен и изменений.</p>
+    </div>
+
+</div>
+    </section>
+
+
+
+
+
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
